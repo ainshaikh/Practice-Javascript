@@ -1,13 +1,4 @@
-let user = {name: "ayaan", age: 15};
-let admin = {name:"Admin"};
+let id = Symbol("id");
+let id2 = Symbol("id2");
 
-function sayHi() {
-    console.log(this.name);
-}
-
-user.f = sayHi;
-admin.f = sayHi;
-
-user.f();
-admin.f();
-admin['f']();
+console.log(id==id2);
