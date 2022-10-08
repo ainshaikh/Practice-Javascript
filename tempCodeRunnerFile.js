@@ -1,4 +1,2 @@
-let id = Symbol("id");
-let id2 = Symbol("id2");
-
-console.log(id==id2);
+let str = "My name is AIN";
+console.log(str.indexOf('name'));
